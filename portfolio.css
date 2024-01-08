@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: auto;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+}
+
+body div ul {
+    color: rgb(247, 242, 242);
+    font-size: medium;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(0, 0, 0)
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+    font-size: larger;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size:smaller;
+}
+
+nav ul li a:hover {
+    color: darkorchid;
+}
+
+div.left {
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23px 0;
+    margin: 50px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.rightsection img {
+    width: 130%;
+    height: 110%;
+
+}
+
+.purple {
+    margin-left: 15px;
+    color: tomato
+}
+
+.text-gray {
+    color: gray;
+    margin-left: 130px;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+image {
+    size: 100px;
+}
+
+#element {
+    color: tomato;
+}
+
+section header {
+    max-width: 100vh;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(157, 146, 187);
+    height: 3px;
+    margin: 40px 40px;
+}
+.firstsection{
+    height: 70vh;
+}
+
+.secondsection {
+    height: 150vh;
+}
+.secondsection h1{
+    color: rgb(178 132 239);
+}
+
+
+.secondsection h2 {
+    max-width: 80vw;
+    margin: auto;
+    color: tomato;
+    margin: auto;
+    font-size: 1.6rem;
+    text-transform: capitalize;  
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    height: 410px;
+    margin: 20px;
+    width: 200px;
+    box-shadow: 5px 5px 20px blue;
+    overflow: hidden;
+}
+
+img {
+    height: 200px;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.intro {
+    height: 120px;
+    width: 188px;
+    padding: 6px;
+    bottom: 200px;
+    color: black;
+
+}
+
+.intro h1 {
+    margin: 10px;
+    font-size: medium;
+
+}
+
+p {
+    font-size: 20px;
+    margin: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+ul {
+    margin-left: -14px;
+}
+
+a {
+    font-size: small;
+    margin-left: -15px;
+}
+
+.thirdsection {
+    color: antiquewhite;
+    height: 50vh;
+}
+
+.thirdsection h1 {
+
+    max-width: 80vw;
+    
+    color: tomato;
+    margin: auto;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.thirdsection h2{
+    margin-top: 25px;
+    max-width: 80vw;
+    margin: auto;
+    color: aliceblue;
+    margin: auto;
+    font-size: 1.6rem;
+    text-transform: capitalize; 
+}
+.thirdsection .course1{
+    margin-top: 40px;
+    margin: 10px 50px;
+    border-radius: 20px;
+    background-color: #4f5e5e;
+    height: 30px;
+
+}
+
+.thirdsection .course2{
+    margin-top: 40px;
+    margin: 10px 50px;
+    border-radius: 20px;
+    background-color: rgb(6, 69, 71);
+    height: 30px;
+
+}
+.thirdsection .course3{
+    margin-top: 40px;
+    margin: 10px 50px;
+    border-radius: 20px;
+    background-color:rgb(20 92 59);
+    height: 30px;
+    
+}.thirdsection header{
+    text-align: center;
+    max-width: 300vh;
+    max-height: 100vh;
+    font-size:x-large;
+}
+.end{
+    height: 50vh;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+.foot {
+    background-color: #7b8b8be0;
+    height: 20px;
+    justify-content: space-evenly;
+}
+
+.foot {
+    display: flex;
+    padding: 15px;
+}
+
+footer li {
+    color: black;
+}
+
+footer ul {
+    list-style: circle;
+}
+
+.foot div {
+    width: 315px;
+}
+
+.footer .footer-rights {
+    color: black;
+    text-align: center;
+}
